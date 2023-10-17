@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coastal Mysteries on Computing</title>
+    <link>/coastal-mysteries/</link>
+    <description>Recent content in Coastal Mysteries on Computing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/coastal-mysteries/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Marker Skills</title>
+      <link>/coastal-mysteries/marker-skills/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/coastal-mysteries/marker-skills/</guid>
+      <description>Use Drawing Tools to create and modify markers. We are going to put a marker on the town of Tenby so that we can see it at any scale.</description>
+    </item>
+    
+    <item>
+      <title>More Markers</title>
+      <link>/coastal-mysteries/more-markers/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/coastal-mysteries/more-markers/</guid>
+      <description>Practise your marker skills by finding and adding markers to two more places.</description>
+    </item>
+    
+    <item>
+      <title>Place Skills</title>
+      <link>/coastal-mysteries/place-skills/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/coastal-mysteries/place-skills/</guid>
+      <description>&lt;p&gt;Learn to recognise how different places are shown on the map.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Match Mystery</title>
+      <link>/coastal-mysteries/match-mystery/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/coastal-mysteries/match-mystery/</guid>
+      <description>&lt;p&gt;Now we have the map view of each settlement, can we match them to photos taken at each location?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Load A Map</title>
+      <link>/coastal-mysteries/load-a-map/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/coastal-mysteries/load-a-map/</guid>
+      <description>Load a map with markers on the three settlements we are looking at.</description>
+    </item>
+    
+    <item>
+      <title>Photo Quest</title>
+      <link>/coastal-mysteries/photo-quest/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/coastal-mysteries/photo-quest/</guid>
+      <description>When you take a picture on your phone, the geophysical location of the image is stored along with the picture.</description>
+    </item>
+    
+    <item>
+      <title>Measurement Skills</title>
+      <link>/coastal-mysteries/measurement-skills/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/coastal-mysteries/measurement-skills/</guid>
+      <description>&lt;p&gt;Our three settlements are clearly quite different. Located East, South and West around the UK coastline, they are also different sizes.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>History Mystery</title>
+      <link>/coastal-mysteries/history-mystery/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/coastal-mysteries/history-mystery/</guid>
+      <description>&lt;p&gt;If we could look at maps from the past, what might be different?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Size Mystery</title>
+      <link>/coastal-mysteries/size-mystery/</link>
+      <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/coastal-mysteries/size-mystery/</guid>
+      <description>&lt;p&gt;We have seen that Brighton is far bigger than both Tenby and Happisburgh. Why did it grow so much bigger?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Yorkshire Coast</title>
+      <link>/coastal-mysteries/yorkshire-coast/</link>
+      <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/coastal-mysteries/yorkshire-coast/</guid>
+      <description>There are towns on our Yorkshire coast that are like those we&amp;rsquo;ve been studying.</description>
+    </item>
+    
+  </channel>
+</rss>

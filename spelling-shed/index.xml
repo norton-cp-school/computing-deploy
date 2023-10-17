@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spelling Shed on Computing</title>
+    <link>/spelling-shed/</link>
+    <description>Recent content in Spelling Shed on Computing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/spelling-shed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resources</title>
+      <link>/spelling-shed/resources/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/spelling-shed/resources/</guid>
+      <description>&lt;p&gt;How to find what you need on the website.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Setup</title>
+      <link>/spelling-shed/setup/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/spelling-shed/setup/</guid>
+      <description>At the start of each academic year, there are a number of setup processes to run through.</description>
+    </item>
+    
+    <item>
+      <title>Games</title>
+      <link>/spelling-shed/games/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/spelling-shed/games/</guid>
+      <description>The spelling games&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Monitoring</title>
+      <link>/spelling-shed/monitoring/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/spelling-shed/monitoring/</guid>
+      <description>How do you keep tabs on the little bezzlers?</description>
+    </item>
+    
+  </channel>
+</rss>

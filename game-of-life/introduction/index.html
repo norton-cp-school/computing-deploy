@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="HandheldFriendly" content="True"/>
+  <meta name="MobileOptimized" content="320"/>
+  <meta name="referrer" content="no-referrer"/>
+  <meta name="description" content="Computing lessons at NCPS."/>
+  
+  <meta property="og:image" content="http://computing.norton-pri.n-yorks.sch.uk/images/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://computing.norton-pri.n-yorks.sch.uk/" />
+  <meta property="og:title" content="Computing @ NCPS." />
+  <meta property="og:description" content="Our computing lessons."/>
+  
+  <link rel="stylesheet" href="/css/bulma.min.css">
+  <link rel="stylesheet" href="/css/compless.css">
+  <script src="https://kit.fontawesome.com/4d95d0fd29.js" crossorigin="anonymous" defer></script>
+  
+  
+
+</head><body>
+    <section class="section pt-2">
+      <div class="container">
+  <nav class="breadcrumb" aria-label="breadcrumbs">
+  
+  
+  <ul>
+    
+      
+        
+    
+      
+        
+          <li><a href='/game-of-life'>Game of Life</a></li>
+          
+        
+    
+      
+        
+          <li><a href='/game-of-life/introduction'>Introduction</a></li>
+          
+        
+    
+      
+        
+    
+  </ul>
+</nav>
+
+  <aside class="box menu is-pulled-right">
+  
+  <p class="menu-label">
+    <a href="/game-of-life/">Conway&#39;s Game of Life</a>
+  </p>
+  <ul class="menu-list">
+    
+      <li>
+        
+        <a class="is-active"
+           href="/game-of-life/introduction/">
+           Introduction
+          </a>
+      </li>
+    
+      <li>
+        
+        <a class=""
+           href="/game-of-life/automate-it/">
+           Let&#39;s Automate It
+          </a>
+      </li>
+    
+      <li>
+        
+        <a class=""
+           href="/game-of-life/try-it-out/">
+           Try It Out
+          </a>
+      </li>
+    
+      <li>
+        
+        <a class=""
+           href="/game-of-life/be-systematic/">
+           Let&#39;s Be Systematic
+          </a>
+      </li>
+    
+  </ul>
+</aside>
+  <h1 class="title is-size-3
+                 is-size-1-fullhd
+                 is-size-4-mobile">Introduction</h1>
+
+<div class="content is-size-5
+                    is-size-3-fullhd
+                    is-size-4-widescreen
+                    is-size-6-mobile"><p>The rules of the game are simple. What&rsquo;s amazing is the complex effects they create.</p>
+<p>The game starts by setting up the game board, or grid, with a pattern. One colour represents cells that are &lsquo;alive&rsquo;. Another colour shows those that are &lsquo;dead&rsquo;. The game starts and play moves to the next round, or <em>generation</em>.</p>
+<p>To decide which cells are alive in the next generation, only two rules are used:</p>
+<h5 id="1-if-a-cell-is-alive">1) If a cell is alive&hellip;</h5>
+<p>&hellip;it <strong>survives</strong> in the next generation if it has <strong>2 or 3 living neighbours</strong>.</p>
+<h5 id="2-if-a-cell-is-dead">2) If a cell is dead&hellip;</h5>
+<p>&hellip; it <strong>comes to life</strong> in the next generation if has <strong><em>exactly</em> 3 living neighbours</strong>.</p>
+<p>The rules are applied to every cell in the grid <em>simultaneously</em>*.</p>
+<p>This means that we must look at each cell&rsquo;s neighbours, decide if that cell is alive in the next generation, record that on <em>the next grid</em>, then look at the next cell in the current generation, then repeat till all are done.</p>
+<p>A cell&rsquo;s neighbours are all 8 that surround it: above; below; to each side; and diagonally, at each corner.</p>
+<div class="columns is-multiline p-0">
+  
+  <div class="column is-one-third ">
+    <figure class="image p-0 m-0">
+      <a href="neighbours.png"><img src="neighbours.png"/></a>
+    </figure>
+  </div>
+
+  <div class="column is-one-third ">
+    The 8 neighbours of the middle (black) cell are shown (light blue.) The middle cell would be dead (white) in the next round because it has zero living neighbours in this round.
+  </div>
+
+
+</div>
+</div>
+
+
+      </div>
+    </section><div class="footer">
+  <div class="section">
+    <div class="container">
+      
+      
+        <span class="is-pulled-right">
+          <a href="/game-of-life/automate-it/">Let&#39;s Automate It</a>
+          <i class="fa-solid fa-arrow-right"></i>
+        </span>
+      
+    </div>
+  </div>
+</div></body>
+</html>

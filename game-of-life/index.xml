@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conway&#39;s Game of Life on Computing</title>
+    <link>/game-of-life/</link>
+    <description>Recent content in Conway&#39;s Game of Life on Computing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="/game-of-life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>/game-of-life/introduction/</link>
+      <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/game-of-life/introduction/</guid>
+      <description>The rules of the game are simple. What&amp;rsquo;s amazing is the complex effects they create.</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Automate It</title>
+      <link>/game-of-life/automate-it/</link>
+      <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/game-of-life/automate-it/</guid>
+      <description>There are lots of computer programs that play the Game of Life.</description>
+    </item>
+    
+    <item>
+      <title>Try It Out</title>
+      <link>/game-of-life/try-it-out/</link>
+      <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/game-of-life/try-it-out/</guid>
+      <description>On a white board or piece of paper, draw two grids (at least 3x3) and mark some cells alive.</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Be Systematic</title>
+      <link>/game-of-life/be-systematic/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/game-of-life/be-systematic/</guid>
+      <description>We&amp;rsquo;ve tried evolving some random soups and we have seen a few still life patterns and some oscillator patterns.</description>
+    </item>
+    
+  </channel>
+</rss>

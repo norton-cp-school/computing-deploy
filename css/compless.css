@@ -1,0 +1,10 @@
+/* local classes */
+dt { 
+    background-color: rgb(245, 245, 245);
+    color: rgb(218, 16, 57);
+    font-family: monospace;
+}
+
+dt {
+    margin-top: 1em;
+}

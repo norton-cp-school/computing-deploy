@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="HandheldFriendly" content="True"/>
+  <meta name="MobileOptimized" content="320"/>
+  <meta name="referrer" content="no-referrer"/>
+  <meta name="description" content="Computing lessons at NCPS."/>
+  
+  <meta property="og:image" content="http://computing.norton-pri.n-yorks.sch.uk/images/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://computing.norton-pri.n-yorks.sch.uk/" />
+  <meta property="og:title" content="Computing @ NCPS." />
+  <meta property="og:description" content="Our computing lessons."/>
+  
+  <link rel="stylesheet" href="/css/bulma.min.css">
+  <link rel="stylesheet" href="/css/compless.css">
+  <script src="https://kit.fontawesome.com/4d95d0fd29.js" crossorigin="anonymous" defer></script>
+  
+  
+
+</head><body>
+    <section class="section pt-2">
+      <div class="container">
+  <nav class="breadcrumb" aria-label="breadcrumbs">
+  
+  
+  <ul>
+    
+      
+        
+    
+      
+        
+          <li><a href='/logo'>Logo</a></li>
+          
+        
+    
+      
+        
+          <li><a href='/logo/logo-commands'>Logo Commands</a></li>
+          
+        
+    
+      
+        
+    
+  </ul>
+</nav>
+
+  <aside class="box menu is-pulled-right">
+  
+  <p class="menu-label">
+    <a href="/logo/">Logo</a>
+  </p>
+  <ul class="menu-list">
+    
+      <li>
+        
+        <a class="is-active"
+           href="/logo/logo-commands/">
+           Logo Commands
+          </a>
+      </li>
+    
+  </ul>
+</aside>
+  <h1 class="title is-size-3
+                 is-size-1-fullhd
+                 is-size-4-mobile">Logo Commands</h1>
+
+<div class="content is-size-5
+                    is-size-3-fullhd
+                    is-size-4-widescreen
+                    is-size-6-mobile"><p>Here are all the logo commands you can see in the panel on the right. If you need to put some things after the command, they are numbers <code>n</code>, angles <code>a</code>, logo colour names <code>c</code>, words <code>&quot;w</code>, or lists <code>[...]</code>.</p>
+<dl>
+<dt>fd <em>n</em></dt>
+<dd>Move forward by <em>n</em> units. Also <code>forward</code></dd>
+<dd>If the pen is down (see <code>pd</code>), a line will be drawn as it moves.</dd>
+<dd>E.g.: <code>fd 10</code> move forwards 10 units.</dd>
+<dt>bk <em>n</em></dt>
+<dd>Move backwards by <em>n</em> units. Also <code>backward</code></dd>
+<dd>If the pen is down (see <code>pd</code>), a line will be drawn in the current colour (see <code>setpc</code>).</dd>
+<dd>E.g.: <code>bk 10</code> move backwards 10 units.</dd>
+<dt>rt <em>a</em></dt>
+<dd>Turn right by <em>a</em> degrees. Also <code>right</code></dd>
+<dd>There are 360˚ in a full turn, so <code>rt 90</code> will make a quarter turn to the right. The turtle will turn, or rotate, in place, it will not move across the screen.</dd>
+<dd>E.g.: <code>rt 30</code> turn right by 30˚. <code>rt 360/3</code> turn right one third of a full turn (120˚).</dd>
+<dt>lt <em>a</em></dt>
+<dd>Turn left by <em>a</em> degrees. Also <code>left</code></dd>
+<dd>E.g.: <code>lt 30+10</code> turn left by 40˚.</dd>
+<dt>pu</dt>
+<dd>Pull the pen up. Also <code>penup</code></dd>
+<dd>The turtle will move without drawing a line.</dd>
+<dt>pd</dt>
+<dd>Put the pen down. Also <code>pendown</code></dd>
+<dd>The turtle will draw a line the current colour as it moves.</dd>
+<dd>The pen is already down when you start Logo.</dd>
+<dt>setpc <em>c</em></dt>
+<dd>Set the line to <em>c</em>. Also <code>setpencolor</code> (US spelling)</dd>
+<dd><em>c</em> can be a whole number between 0 (black) and 15 (grey) <em>or</em> the colour name shown next to the number. These are the standard logo colours.</dd>
+<dd>E.g.: <code>setpc 4 fd 5</code> or <code>setpc red fd 4</code></dd>
+</dl>
+<div class="box" style="width:60%;">
+<table class="table is-narrow">
+    <tbody><tr>
+      <td style="background-color: black; color: white;">0 black
+      </td><td style="background-color: blue; color: white;">1 blue
+      </td><td style="background-color: lime;">2 green
+      </td><td style="background-color: cyan;">3 cyan
+    </td></tr><tr>
+      <td style="background-color: red;">4 red
+      </td><td style="background-color: magenta;">5 magenta
+      </td><td style="background-color: yellow;">6 yellow
+      </td><td style="background-color: white;">7 white
+    </td></tr><tr>
+      <td style="background-color: brown; color: white;">8 brown
+      </td><td style="background-color: tan;">9 tan
+      </td><td style="background-color: green; color: white;">10 green
+      </td><td style="background-color: aquamarine;">11 aqua
+    </td></tr><tr>
+      <td style="background-color: salmon;">12 salmon
+      </td><td style="background-color: purple; color: white;">13 purple
+      </td><td style="background-color: orange;">14 orange
+      </td><td style="background-color: gray; color: white;">15 grey
+  </td></tr></tbody></table>
+  </div>
+<dl>
+<dt>setpc &ldquo;<em>html-colour</em></dt>
+<dd>Set the line to <em>html-colour</em>.</dd>
+<dd>If you add a quote to the beginning of the colour name, you can use any of the <a href="https://www.w3schools.com/tags/ref_colornames.asp">140 HTML colour names</a>.</dd>
+<dd>E.g.: <code>setpc &quot;MediumOrchid fd 4</code></dd>
+<dt>setpc &ldquo;<em>#hex-colour</em></dt>
+<dd>Set the line to <em>hex-colour</em>.</dd>
+<dd>If you add a quote mark and a hash to the beginning of the colour, you can mix your own colour from red, green and blue components. These are the <a href="https://www.w3schools.com/html/html_colors_hex.asp">HTML Hex colours</a>.</dd>
+<dd>E.g.: <code>setpc &quot;#6a5acd fd 4</code></dd>
+<dt>setps <em>n</em></dt>
+<dd>Set the pen size (or width) to <em>n</em> pixels. Also <code>setpensize</code></dd>
+<dd>E.g.: <code>setps 1 setpc 1 fd 2</code> draws a short thin blue line.</dd>
+<dd>Purple Mash puts a limit of 100 on the size of the pen.</dd>
+<dt>say &ldquo;<em>w</em></dt>
+<dd>Print the word <em>w</em> on a new line at the top left of the screen.</dd>
+<dd>E.g.: <code>say &quot;Hello</code></dd>
+<dt>wait <em>n</em></dt>
+<dd>Pause drawing and Wait for <em>n</em> seconds (max 10)</dd>
+<dd>E.g.: <code>wait 4</code></dd>
+<dt>play [&hellip;]</dt>
+<dd>Play a sequence of notes given by the list [&hellip;].</dd>
+<dd>E.g.: <code>play [ G G G A G G D ]</code></dd>
+</dl>
+<h3 id="secret-commands">Secret Commands</h3>
+<p>These commands aren&rsquo;t in the panel. Try them out anyway.</p>
+<dl>
+<dt>home</dt>
+<dd>Move the turtle back to its home posiition. It will not draw during this move.</dd>
+<dd>Home is usually the centre of the screen, but if you have moved the turtle by dragging it with the mouse, home is where you dragged it to. Don&rsquo;t try this with your actual home! It is too heavy.</dd>
+<dt>setxy <em>x</em> <em>y</em></dt>
+<dd>Move the turtle to the coordinates (<em>x</em>, <em>y</em>) on the screen. It will not draw.</dd>
+<dd>The screen coordinates go from <code>(0, 0)</code> at the top left to <code>(1489, 855)</code> at the bottom right. Each square on the grid is 50 pixels.</dd>
+<dd>E.g.: <code>setxy 100 100 rpt 4 [ fd 2 lt 90 ]</code> draws a square at the top left of the screen.</dd>
+<dt>setheading <em>a</em></dt>
+<dd>Turn the turtle to angle <em>a</em>. Zero is directly up the screen and angles increase clockwise. Unlike <code>rt</code> and <code>lt</code>, <code>setheading</code> takes no notice of where the turtle is already pointing.</dd>
+<dd>E.g.: <code>setheading 90</code> turns to point directly to the right.</dd>
+<dt>random <em>n</em></dt>
+<dd>Generates a random number between 0 and <em>n-1</em>.</dd>
+<dd>E.g.: <code>rpt 200 [ setxy random 1489 random 855 rpt 4 [ fd 1 rt 90 ] ]</code> draws 200 small squares at random positions on the screen.</dd>
+<dd><code>setps 1 rpt 1000 [ fd .5 rt random 360 ]</code> generates a random walk. Do you think 1000 repeats will see the turtle go off the screen?</dd>
+<dt>make &ldquo;<em>name</em> <em>value</em></dt>
+<dd>Makes a variable called <em>name</em> with the given <em>value</em>. You can use the variable later in another expression using <code>:name</code>.</dd>
+<dd>The code below draws up to 150 squares at random positions. The pen size is randomly chosen between 5 and 20. The sides of each squares is a random colour (except white).</dd>
+</dl>
+<pre tabindex="0"><code>rpt 150 [
+    make &#34;length random 5
+    make &#34;colour random 15
+    if (:colour &lt;&gt; 7) [ ; no white squares
+      setps 5 + random 21 ; pen size between 5 and 20
+      setpc :colour
+      setxy random 1489 random 855
+      rpt 4 [ fd 1+:length rt 90 ]
+  ]
+]
+
+; Try adding `setheading random 90` before the `rpt 4` line.
+</code></pre></div>
+
+
+      </div>
+    </section><div class="footer">
+  <div class="section">
+    <div class="container">
+      
+      
+    </div>
+  </div>
+</div></body>
+</html>

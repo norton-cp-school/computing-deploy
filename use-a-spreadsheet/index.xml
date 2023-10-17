@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Use A Spreadsheet on Computing</title>
+    <link>/use-a-spreadsheet/</link>
+    <description>Recent content in Use A Spreadsheet on Computing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="/use-a-spreadsheet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Start a Spreadsheet</title>
+      <link>/use-a-spreadsheet/start-a-spreadsheet/</link>
+      <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/use-a-spreadsheet/start-a-spreadsheet/</guid>
+      <description>To start using a spreadsheet, log in to Purple Mash and launch 2Calculate in formula mode.</description>
+    </item>
+    
+    <item>
+      <title>Calculate a Total</title>
+      <link>/use-a-spreadsheet/calculate-a-total/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/use-a-spreadsheet/calculate-a-total/</guid>
+      <description>Again, log in to Purple Mash and launch 2Calculate in formula mode.</description>
+    </item>
+    
+    <item>
+      <title>Update a Total</title>
+      <link>/use-a-spreadsheet/update-a-total/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/use-a-spreadsheet/update-a-total/</guid>
+      <description>Log in to Purple Mash and open your PE Kit spreadsheet from last lesson.</description>
+    </item>
+    
+    <item>
+      <title>Advanced Totals</title>
+      <link>/use-a-spreadsheet/advanced-totals/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/use-a-spreadsheet/advanced-totals/</guid>
+      <description>In this session, we are going to use even more formulas.</description>
+    </item>
+    
+    <item>
+      <title>Your Turn</title>
+      <link>/use-a-spreadsheet/your-turn/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/use-a-spreadsheet/your-turn/</guid>
+      <description>Now you know how to make 2Calculate Spreadsheets, have a go at solving some problems.</description>
+    </item>
+    
+  </channel>
+</rss>
